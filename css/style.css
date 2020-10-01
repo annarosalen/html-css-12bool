@@ -6,8 +6,10 @@
   box-sizing: border-box;
 }
 
-body{
+.container{
   background-color: pink;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 
 [class*="col-"]{
@@ -20,7 +22,7 @@ body{
 }
 
 p{
-  position: absolute;  
+  position: absolute;
   top:50%;
   left: 50%;
   transform: translate(-50%, -50%);
